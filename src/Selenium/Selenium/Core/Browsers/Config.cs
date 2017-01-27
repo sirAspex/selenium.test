@@ -25,6 +25,7 @@ namespace Selenium.Core.Browsers
 
         public static bool UseBrowserstack => bool.Parse(ConfigurationManager.AppSettings["UseBrowserstack"]);
         public static string BrowserStackHubUrl => ConfigurationManager.AppSettings["BrowserStackHubUrl"];
+        public static string BrowserStackDebug => ConfigurationManager.AppSettings["BrowserStackDebug"];
         public static string BrowserStackUsername => ConfigurationManager.AppSettings["BrowserStackUsername"];
         public static string BrowserStackAccessKey => ConfigurationManager.AppSettings["BrowserStackAccessKey"];
     }
